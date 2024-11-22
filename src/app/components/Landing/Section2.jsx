@@ -12,7 +12,7 @@ const Section2 = () => {
                 {/* Headline */}
                 <div className="text-start w-4/12 px-5  mb-8">
                     <h1 className="text-3xl sm:text-4xl lg:text-6xl leading-8 tracking-tight  text-gray-700">
-                        The world's largest therapy service.
+                        The world&apos;s largest therapy service.
                     </h1>
                     <p className="text-green-600 text-3xl sm:text-4xl lg:text-5xl  mt-3">
                         100% online.

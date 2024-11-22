@@ -11,7 +11,7 @@ const Section3 = () => {
                     Professional and qualified therapists who you can trust
                 </p>
                 <p className='leading-8 text-2xl text-gray-600 mt-7'>
-                    Tap into the world's largest network of qualified
+                    Tap into the world&apos;s largest network of qualified
                     and experienced therapists who can help you with a
                     range of issues including depression, anxiety, relationships,
                     trauma, grief, and more. With our therapists, you get the same

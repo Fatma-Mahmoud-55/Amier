@@ -72,7 +72,9 @@ const Section4 = () => {
                             Therapy when you need it
                         </p>
                         <p className='leading-8 text-2xl text-gray-600 mt-7'>
-                            You can message your therapist at anytime, from anywhere. You also get to schedule live sessions when it's convenient for you, and can connect from any mobile device or computer.
+                            You can message your therapist at anytime, from anywhere. You also get to schedule live sessions
+                            when it&apos;s convenient for you,
+                            and can connect from any mobile device or computer.
 
                         </p>
 

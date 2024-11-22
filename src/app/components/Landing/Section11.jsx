@@ -53,10 +53,10 @@ const Section11 = () => {
                             <p>
                                 After you sign up, we will match you to an available therapist who fits your objectives,
                                 preferences, and the type of issues you are dealing with. Different therapists have
-                                different approaches and areas of focus, so it's important to find the right person who
+                                different approaches and areas of focus, so it&apos;s important to find the right person who
                                 can achieve the best results for you. We have found that we are able to provide a
                                 successful match most of the time; however, if you start the process and you feel your
-                                therapist isn't a good fit for you, you may elect to be matched to a different
+                                therapist isn&apos;t a good fit for you, you may elect to be matched to a different
                                 therapist.
 
                             </p>
@@ -78,10 +78,10 @@ const Section11 = () => {
                             <p>
                                 After you sign up, we will match you to an available therapist who fits your objectives,
                                 preferences, and the type of issues you are dealing with. Different therapists have
-                                different approaches and areas of focus, so it's important to find the right person who
+                                different approaches and areas of focus, so it&apos;s important to find the right person who
                                 can achieve the best results for you. We have found that we are able to provide a
                                 successful match most of the time; however, if you start the process and you feel your
-                                therapist isn't a good fit for you, you may elect to be matched to a different
+                                therapist isn&apos;t a good fit for you, you may elect to be matched to a different
                                 therapist.
                             </p>
                         </div>
@@ -112,7 +112,7 @@ const Section11 = () => {
                             className="px-10 cursor-pointer p-4 text-lg  flex justify-between items-center hover:bg-gray-100"
                             onClick={() => toggleAccordion(4)}
                         >
-                            I signed up. How long until I'm matched with a therapist? <HiPlus/>
+                            I signed up. How long until I&apos;m matched with a therapist? <HiPlus/>
                         </h2>
                     </div>
                     {activeIndex === 4 && (
