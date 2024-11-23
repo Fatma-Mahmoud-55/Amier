@@ -8,13 +8,11 @@ function NavBar(props) {
     const pathname = usePathname();
 
     const navLinks = [
-        { name: 'Business', href: '/#' },
-        { name: 'Advice', href: '/#' },
+        { name: 'Services', href: '/#' },
+        { name: 'Location', href: '/#' },
         { name: 'About', href: '/#' },
-        { name: 'Reviews ', href: '/#' },
-        { name: 'FAQ', href: '/#' },
-        { name: 'Therapist jobs', href: '/#' },
         { name: 'Contact', href: '/#' },
+
     ];
 
     // Track scrolling

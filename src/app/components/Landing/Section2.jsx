@@ -14,9 +14,9 @@ const Section2 = () => {
                     <h1 className="text-3xl sm:text-4xl lg:text-6xl leading-8 tracking-tight  text-gray-700">
                         The world&apos;s largest therapy service.
                     </h1>
-                    <p className="text-green-600 text-3xl sm:text-4xl lg:text-5xl  mt-3">
-                        100% online.
-                    </p>
+                    {/*<p className="text-green-600 text-3xl sm:text-4xl lg:text-5xl  mt-3">*/}
+                    {/*    100% online.*/}
+                    {/*</p>*/}
                 </div>
 
                 {/* Stats */}
@@ -34,7 +34,7 @@ const Section2 = () => {
 
                         </p>
                         <p className="text-gray-600 text-lg w-full whitespace-nowrap py-4">
-                            Qualified therapists ready to help
+                            Qualified therapist ready to help
 
                         </p>
                     </div>

@@ -20,20 +20,18 @@ const Section11 = () => {
                             className=" px-10 cursor-pointer p-4 text-lg flex justify-between items-center  hover:bg-gray-100"
                             onClick={() => toggleAccordion(0)}
                         >
-                            Who are the therapists? <HiPlus/>
+                             What types of evaluations do you provide?
+                            <HiPlus/>
                         </h2>
                     </div>
                     {activeIndex === 0 && (
                         <div className="p-4">
                             <p>
-                                Every therapist providing services on BetterHelp is a credentialed and experienced
-                                counselor, psychologist, social worker, or therapist.
+                                We specialize in:
 
-                                They must also have a relevant academic degree, at least 3 years of experience, and have
-                                credentials from their professional organization. This includes completing the necessary
-                                education, exams, training, and practice requirements. We refer to therapists across our
-                                sites and apps according to their professional title and credentials, specific to the
-                                U.S., U.K., Australia, Germany, France, or the Netherlands, as applicable.
+                                Corporate health assessments for employee work capacity.
+                                Legal evaluations for civil law cases, such as capacity or consent issues.
+                                Public law assessments, including insurance claims and disability cases.
                             </p>
                         </div>
                     )}
@@ -45,19 +43,14 @@ const Section11 = () => {
                             className="px-10 cursor-pointer p-4 text-lg  flex justify-between items-center hover:bg-gray-100"
                             onClick={() => toggleAccordion(1)}
                         >
-                            Who will be helping me? <HiPlus/>
+                             How long does it take to receive the assessment report?
+                            <HiPlus/>
                         </h2>
                     </div>
                     {activeIndex === 1 && (
                         <div className="p-4">
                             <p>
-                                After you sign up, we will match you to an available therapist who fits your objectives,
-                                preferences, and the type of issues you are dealing with. Different therapists have
-                                different approaches and areas of focus, so it&apos;s important to find the right person who
-                                can achieve the best results for you. We have found that we are able to provide a
-                                successful match most of the time; however, if you start the process and you feel your
-                                therapist isn&apos;t a good fit for you, you may elect to be matched to a different
-                                therapist.
+                                We deliver most reports within 2 weeks from the date of assignment, ensuring both thoroughness and efficiency.
 
                             </p>
                         </div>
@@ -70,19 +63,15 @@ const Section11 = () => {
                             className="px-10 cursor-pointer p-4 text-lg  flex justify-between items-center hover:bg-gray-100"
                             onClick={() => toggleAccordion(2)}
                         >
-                            Is BetterHelp right for me? <HiPlus/>
+                            Are your evaluations legally recognized?
+                            <HiPlus/>
                         </h2>
                     </div>
                     {activeIndex === 2 && (
                         <div className="p-4">
                             <p>
-                                After you sign up, we will match you to an available therapist who fits your objectives,
-                                preferences, and the type of issues you are dealing with. Different therapists have
-                                different approaches and areas of focus, so it&apos;s important to find the right person who
-                                can achieve the best results for you. We have found that we are able to provide a
-                                successful match most of the time; however, if you start the process and you feel your
-                                therapist isn&apos;t a good fit for you, you may elect to be matched to a different
-                                therapist.
+                                Yes, our evaluations are conducted by certified medical
+                                experts in compliance with Swiss Insurance Medicine (SIM) standards and legal frameworks.
                             </p>
                         </div>
                     )}
@@ -95,12 +84,14 @@ const Section11 = () => {
                             className="px-10 cursor-pointer p-4 text-lg  flex justify-between items-center hover:bg-gray-100"
                             onClick={() => toggleAccordion(3)}
                         >
-                            How much does it cost? <HiPlus/>
+                             Do you provide follow-up support after delivering the report?
+                            <HiPlus/>
                         </h2>
                     </div>
                     {activeIndex === 3 && (
                         <div className="p-4">
-                            <p>This is the content of Panel 3.</p>
+                            <p>Absolutely. We offer follow-up consultations to address any questions or additional needs related to the assessment.
+                            </p>
                         </div>
                     )}
                 </div>
@@ -112,19 +103,13 @@ const Section11 = () => {
                             className="px-10 cursor-pointer p-4 text-lg  flex justify-between items-center hover:bg-gray-100"
                             onClick={() => toggleAccordion(4)}
                         >
-                            I signed up. How long until I&apos;m matched with a therapist? <HiPlus/>
+                             Can you handle urgent requests?
+                            <HiPlus/>
                         </h2>
                     </div>
                     {activeIndex === 4 && (
                         <div className="p-4">
-                            <p>Every therapist providing services on BetterHelp is a credentialed and experienced
-                                counselor, psychologist, social worker, or therapist.
-
-                                They must also have a relevant academic degree, at least 3 years of experience, and have
-                                credentials from their professional organization. This includes completing the necessary
-                                education, exams, training, and practice requirements. We refer to therapists across our
-                                sites and apps according to their professional title and credentials, specific to the
-                                U.S., U.K., Australia, Germany, France, or the Netherlands, as applicable.</p>
+                            <p>Yes, we prioritize urgent cases and aim to provide prompt evaluations without compromising quality.</p>
                         </div>
                     )}
                 </div>
@@ -135,13 +120,53 @@ const Section11 = () => {
                             className="px-10 cursor-pointer p-4 text-lg  flex justify-between items-center hover:bg-gray-100"
                             onClick={() => toggleAccordion(5)}
                         >
-                            How will I communicate with my therapist?
+                             What regions do you serve?
                             <HiPlus/>
                         </h2>
                     </div>
                     {activeIndex === 5 && (
                         <div className="p-4">
-                            <p>This is the content of Panel 3.</p>
+                            <p>
+                                We primarily serve Switzerland, focusing on Central Swiss cantons (Schwyz, Lucerne, Zug, Obwalden, Nidwalden), but we are also available for consultations in other regions.
+                            </p>
+                        </div>
+                    )}
+                </div>
+
+                <div className="border rounded   ">
+                    <div className="border-b">
+                        <h2
+                            className="px-10 cursor-pointer p-4 text-lg  flex justify-between items-center hover:bg-gray-100"
+                            onClick={() => toggleAccordion(6)}
+                        >
+                            How do I get started?
+                            <HiPlus/>
+                        </h2>
+                    </div>
+                    {activeIndex === 6 && (
+                        <div className="p-4">
+                            <p>
+                                Getting started is simple! Contact us via the form on our website or email us directly with your inquiry. Our team will guide you through the next steps.
+                            </p>
+                        </div>
+                    )}
+                </div>
+
+                <div className="border rounded   ">
+                    <div className="border-b">
+                        <h2
+                            className="px-10 cursor-pointer p-4 text-lg  flex justify-between items-center hover:bg-gray-100"
+                            onClick={() => toggleAccordion(7)}
+                        >
+                             Are consultations confidential?
+                            <HiPlus/>
+                        </h2>
+                    </div>
+                    {activeIndex === 7 && (
+                        <div className="p-4">
+                            <p>
+                                Yes, all consultations and evaluations are conducted with the highest level of confidentiality and professionalism.
+                            </p>
                         </div>
                     )}
                 </div>

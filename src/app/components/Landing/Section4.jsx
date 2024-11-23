@@ -20,13 +20,11 @@ const Section4 = () => {
                 {/* right */}
                 <div  className='lg:w-3/12 w-12/12 space-y-9  '>
                     <p className=" !leading-10  text-3xl font-medium text-gray-700">
-                        Get matched to the best therapist for you
-                    </p>
+                        Initial Consultation                    </p>
                     <p className='leading-8 text-2xl text-gray-600 mt-7'>
-                        Answer a few questions to find a
-                        qualified therapist who fits your needs
-                        and preferences. Tap into the largest
-                        online network of credentialed providers.
+                        We begin by understanding your unique needs—whether it's a corporate health evaluation, legal consultation, or public law inquiry.
+                        What you do: Submit a request or schedule a consultation.
+                        What we do: Analyze your case and provide tailored guidance.
                     </p>
 
                 </div>
@@ -44,10 +42,12 @@ const Section4 = () => {
                     {/* right */}
                     <div className='lg:w-3/12 w-12/12 space-y-9 '>
                         <p className=" !leading-10  text-3xl font-medium text-gray-700">
-                            Communicate your way
+                            Information Collection
                         </p>
                         <p className='leading-8 text-2xl text-gray-600 mt-7'>
-                            Talk to your therapist however you feel comfortable — text, chat, phone, or video.
+                            Our team gathers all relevant medical, legal, or organizational information to ensure a thorough and accurate assessment.
+                            What you do: Provide necessary documents and background details.
+                            What we do: Conduct in-depth research and prepare for evaluation.
                         </p>
 
                     </div>
@@ -69,13 +69,72 @@ const Section4 = () => {
                     {/* right */}
                     <div className='lg:w-3/12 w-12/12 space-y-9 '>
                         <p className=" !leading-10  text-3xl font-medium text-gray-700">
-                            Therapy when you need it
+                            Expert Evaluation
                         </p>
                         <p className='leading-8 text-2xl text-gray-600 mt-7'>
-                            You can message your therapist at anytime, from anywhere. You also get to schedule live sessions
-                            when it&apos;s convenient for you,
-                            and can connect from any mobile device or computer.
+                            Our certified professionals conduct detailed evaluations based on your case requirements.
+                            <strong>
+                            For example:
 
+                            </strong>
+                            Employee work capacity reviews for corporate health.
+                            Legal capacity and consent assessments for civil law.
+                            Medical and psychiatric evaluations for insurance claims.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            {/* four */}
+            <div>
+                <div className='flex justify-center items-center mt-8'>
+                    <FaArrowDownLong className='text-6xl text-green-700 '/>
+                </div>
+                <div className='lg:flex items-center justify-center gap-24'>
+                    {/* left */}
+                    <div className='w-5/12'>
+                        <Image src={img5} alt="star" className='w-full'/>
+                    </div>
+                    {/* right */}
+                    <div className='lg:w-3/12 w-12/12 space-y-9 '>
+                        <p className=" !leading-10  text-3xl font-medium text-gray-700">
+                            Report Delivery
+                        </p>
+                        <p className='leading-8 text-2xl text-gray-600 mt-7'>
+                            Receive a comprehensive report with actionable insights and professional recommendations.
+                           <strong> What you get:</strong>Accurate, well-documented findings.
+                            Clear guidance for informed decision-making.
+
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+   {/* five */}
+            <div>
+                <div className='flex justify-center items-center mt-8'>
+                    <FaArrowDownLong className='text-6xl text-green-700 '/>
+                </div>
+                <div className='lg:flex items-center justify-center gap-24'>
+                    {/* left */}
+                    <div className='w-5/12'>
+                        <Image src={img5} alt="star" className='w-full'/>
+                    </div>
+                    {/* right */}
+                    <div className='lg:w-3/12 w-12/12 space-y-9 '>
+                        <p className=" !leading-10  text-3xl font-medium text-gray-700">
+                           Ongoing Support
+                        </p>
+                        <p className='leading-8 text-2xl text-gray-600 mt-7'>
+                            Our commitment doesn&apos;t end with the report. We offer follow-up consultations to address any questions or additional needs.
+                            <strong>What you do : </strong>Reach out for further support if required.
+                            What we do: Provide continued expertise and updates.
                         </p>
 
                     </div>
